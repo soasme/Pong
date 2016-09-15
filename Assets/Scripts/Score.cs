@@ -26,7 +26,7 @@ public class Score : MonoBehaviour {
 		if (other.gameObject.name == "ball") {
 			Destroy (ball);
 			score += 1;
-			GameObject b = Instantiate (ballPref, new Vector2 (0, 1.14f), Quaternion.identity) as GameObject;
+			GameObject b = Instantiate (ballPref, new Vector2 (0, table.transform.position.y + 1), Quaternion.identity) as GameObject;
 			b.name = "ball";
 		}
 	}
