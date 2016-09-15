@@ -5,4 +5,4 @@ An Unity Pong Game
 
 ## Screenshot
 
-![](tree/master/images/screenshot.png)
+![](https://github.com/soasme/Pong/raw/master/images/screenshot.png)
